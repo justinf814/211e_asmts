@@ -1,0 +1,29 @@
+[root@zm03lf 211e_asmts]# java LittleDNS
+^Z
+[1]+  Stopped                 java LittleDNS
+[root@zm03lf 211e_asmts]# bg
+[1]+ java LittleDNS &
+[root@zm03lf 211e_asmts]# java LittleDNSClient
+Enter an IP or FQDN: 
+www.google.com
+www.google.com/74.125.239.148
+www.google.com/74.125.239.147
+www.google.com/74.125.239.145
+www.google.com/74.125.239.146
+www.google.com/74.125.239.144
+www.google.com/2607:f8b0:4010:801:0:0:0:1010
+[1]+  Done                    java LittleDNS
+[root@zm03lf 211e_asmts]# java LittleDNS &
+[1] 31282
+[root@zm03lf 211e_asmts]# java LittleDNSClient
+Enter an IP or FQDN: 
+74.125.239.147
+74.125.239.147 resolves to nuq05s02-in-f19.1e100.net
+[1]+  Done                    java LittleDNS
+[root@zm03lf 211e_asmts]# java LittleDNS &
+[1] 31314
+[root@zm03lf 211e_asmts]# java LittleDNSClient
+Enter an IP or FQDN: 
+
+ resolves to localhost
+[root@zm03lf 211e_asmts]#
